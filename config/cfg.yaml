@@ -1,0 +1,33 @@
+#######################################################
+# All Settings
+#######################################################
+polar_height > 64
+polar_width > 512
+fine_mask_model_path > cpp_weights/traced_mask_model.pt
+circle_param_model_path > cpp_weights/traced_circle_model.pt
+seg_width > 320
+seg_height > 240
+norm_mean_mask > 0.5 
+norm_std_mask > 0.5
+norm_mean_circle > 0.5
+norm_std_circle > 0.5
+MINIMUM_PUPIL_RADIUS > 4
+MINIMUM_IRIS_RADIUS > 12
+CRYPTS_INITIAL_ITERATIVE_STR_EL_RADIUS > 4
+CRYPTS_MIN_ITERATIVE_STR_EL_RADIUS > 3
+CRYPTS_BACKGROUND_GAUSS_SIZE > 16
+CRYPTS_BACKGROUND_GAUSS_SIGMA > 16
+CRYPTS_SMOOTH_GAUSS_SIZE > 5
+CRYPTS_SMOOTH_GAUSS_SIGMA > 3
+CRYPTS_MASK_THRESHOLD > 0
+CRYPTS_MIN_CRYPT_AREA > 15.0
+CRYPTS_MIN_CRYPT_AREA_HS > 5.0
+CRYPTS_MAX_CRYP_AREA_LB > 145.0
+CRYPTS_MIN_CRYP_AREA_UB > 317.0
+CRYPTS_CUT_STD > 0.06
+CRYPTS_MATCH_COINCIDENCE_TOLERANCE > 0.5
+CRYPTS_MATCH_DIST_ALPHA > 0.5
+CRYPTS_MATCH_PDIST > 20
+CRYPTS_MATCH_MAX_SHIFT > 15
+CRYPTS_GD_MAX_SHIFT > 2
+CRYPTS_FRACTION_TOTAL_PAIRS > 0.85
